@@ -105,14 +105,17 @@ do {
   console.log(j);
   j++;
 } while (j <= 5);
+
+
 let word = "STACKLY";
 
 for (let ch of word) {
   console.log(ch);
 }
 
-for-in loop
-let student = {
+
+let student =
+{
   name: "Arun",
   course: "MERN",
   duration: "6 months"
@@ -127,7 +130,6 @@ let u = "admin", p = "1234";
 console.log(u === "admin" && p === "1234" ? "Login Success" : "Invalid Credentials");
 
 let salary = 60000, exp = 4;
-
 if (salary > 50000 && exp > 3) {
   console.log("Eligible for bonus");
 } else {
@@ -135,7 +137,6 @@ if (salary > 50000 && exp > 3) {
 }
 
 let amount = 3500;
-
 if (amount >= 5000) {
   console.log("20% Discount");
 } else if (amount >= 2000) {
@@ -146,7 +147,6 @@ if (amount >= 5000) {
 
 
 let even = 0;
-
 for (let i = 1; i <= 50; i++) {
   if (i % 2 === 0) even++;
 }
@@ -154,7 +154,6 @@ console.log("Even numbers:", even);
 
 
 let hour = 15;
-
 if (hour >= 1 && hour <= 6) console.log("Good Morning");
 else if (hour <= 12) console.log("Morning");
 else if (hour <= 16) console.log("Good Afternoon");
